@@ -7,11 +7,11 @@ Um botão com efeito neon verde no hover, feito com HTML e CSS puro.
 - Efeito neon com `box-shadow`
 - Texto com `::before`
 
-## 🛠️ Tecnologias
+##  Tecnologias
 - HTML5
 - CSS3
 
-## 🙏 Mensagem
-> Jesus Cristo ama vocês. ✝️
+##  Mensagem
+> Jesus Cristo ama vocês. 
 
-Feito com por RI770 (Riquelme)
+Feito com por RI770 (Riquelmegusmao)
