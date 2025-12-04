@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.botao {
+  position: relative;
+  background-color: #000;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  height: 50px;
+  width: 150px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 
+    3px 3px 7px rgb(176, 176, 176), 
+    -3px -3px 5px rgb(176, 176, 176);
+  transition: all 0.5s ease;
+  overflow: hidden;
+}
+
+.botao::before {
+  content: "CLIQUE AQUI";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgba(255, 255, 255, 0.3);
+  font-size: 0.8rem;
+  pointer-events: none;
+  transition: all 0.5s ease;
+}
+
+.botao:hover {
+  box-shadow: 
+    0 0 20px rgb(0, 255, 0), 
+    0 0 40px rgb(0, 255, 0);
+  color: rgb(0, 255, 0);
+  transform: scale(1.10);
+}
+
+.botao:hover::before {
+  color: rgba(0, 255, 0, 0.6);
+  transform: translate(-50%, -50%) scale(1.2);
+}
